@@ -6165,4 +6165,27 @@ section.seccion_siete {
   padding: 40px;
   color: #999999; }
 
+.plandestacado {
+  color: #3C4858; }
+
+h3.price {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #3C4858;
+  font-weight: 800; }
+
+hr {
+  border-top: 1px solid lightgray; }
+
+section.seccion_ocho {
+  background-color: #F0F0F0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.client {
+  width: 40%; }
+
 /*# sourceMappingURL=main.css.map */

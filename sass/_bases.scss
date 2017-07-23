@@ -313,3 +313,25 @@ section.seccion_siete{
 .boxcard_dos{
 	@include boxcard;
 }
+.plandestacado{
+	color: $color_azul;
+}
+h3.price {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: $color_azul;
+    font-weight: 800;
+}
+hr{
+	border-top: 1px solid lightgray;
+}
+//Seccion Ocho
+section.seccion_ocho{
+	@include base_seccion;
+	background-color: $color_white;
+}
+.client{
+	width: 40%;
+}
+//Seccion Nueve
