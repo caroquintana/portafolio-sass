@@ -1,0 +1,9 @@
+@mixin img_responsive{
+	width: 100%;
+    height: auto;
+}
+@mixin centrar_img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}

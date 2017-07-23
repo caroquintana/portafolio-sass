@@ -25,17 +25,21 @@ li.shop{
 	width:$ancho_cienporciento;
 	padding: $padding_reset;
 }
+section.seccion_uno {
+    position: relative;
+    z-index: -20;
+}
 img.imgcarrousel{
 	width:$ancho_cienporciento;	
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img{
-	height: 600px;
+	height: 630px;
 }
 .carousel-caption{
 	margin-bottom: 160px;
 }
 h1.titulos_principales{
-	font-weight: $typo_weight;
+	font-weight: $typo_weight_bold;
 	font-size: 67.2px;
 }
 p.subtitulos_caption{
@@ -51,11 +55,54 @@ a.btn-primary{
 	border: 0;
 	font-size:13px;
 	padding: 17px 26px;
-
 }
 a.btn-primary:hover, a.btn-primary:visited, a.btn-primary:active, a.btn-primary:active:focus{
 	background-color: $color_fucsia;
 	font-size:13px;
 	padding: 17px 26px;
 }
+img.imgcarrousel{
+	@include img_responsive;
+	@include centrar_img;
+}
+//Segunda Seccion
+section.seccion_dos{
+	width: 95%;
+	background-color:$color_white;
+	margin: 0 auto;
+	border-radius: 8px;
+	margin-top: -80px;
+	z-index: 999;
+}
+h4.titulos_ss{
+	margin-top: 80px;
+	padding: 0 108px;
+	text-align: center;
+	font-weight:300;
+	margin-bottom: 80px;
+}
+i.icon_segunda_uno{
+	font-size:$tamano_icon_segundasec;
+	color: $color_fucsia;
+}
+i.icon_segunda_dos{
+	font-size:$tamano_icon_segundasec;
+	color: $color_celeste;
+}
+i.icon_segunda_tres{
+	font-size:$tamano_icon_segundasec;
+	color: $color_verde;
+}
+h3.subtitulos_seg{
+	font-family: $typo_secundaria;
+	font-size: 16px;
+	font-weight: $typo_weight_bold;
+}
+p.text_segunda{
+	font-weight: $typo_weight_light;
+}
+div.trescajas{
+	margin-bottom: 100px;
+}
+
 
