@@ -4,7 +4,8 @@ body{
 }
 //Estilos nav 
 .navbar-fixed-top{
-	top:25px;
+	top:0;
+	padding-top: 18px;
 }
 .navbar-default {
     background-color: transparent;
@@ -75,7 +76,7 @@ section.seccion_dos{
 	z-index: 999;
 }
 h4.titulos_ss{
-	margin-top: 80px;
+	margin-top: $margin_top_bottom;
 	padding: 0 108px;
 	text-align: center;
 	font-weight:300;
@@ -94,9 +95,7 @@ i.icon_segunda_tres{
 	color: $color_verde;
 }
 h3.subtitulos_seg{
-	font-family: $typo_secundaria;
-	font-size: 16px;
-	font-weight: $typo_weight_bold;
+	@include subtitulos_pequeños;
 }
 p.text_segunda{
 	font-weight: $typo_weight_light;
@@ -116,7 +115,7 @@ section.seccion_tres{
 	background-position: center center;
 } 
 div.doscajas{
-	margin-top:80px;
+	margin-top:$margin_top_bottom;
 	margin-bottom: 80px;
 	color: $color_white;
 }
@@ -126,8 +125,7 @@ h1{
 	margin-bottom: 20px;
 }
 p.text_st{
-	font-size: 18px;
-	font-weight: $typo_weight_light;
+	@include subtitulos;
 }
 img.imgtablet{
 	width:80%;
@@ -138,4 +136,180 @@ iframe{
 	border: 1px solid $color_white;
 	margin-bottom: 60px;
 }
-
+//Cuarta Seccion
+section.seccion_cuatro{
+	@include base_seccion;
+}
+h1.titulo_scua{
+	margin-top:$margin_top_bottom;
+	font-family: $typo_secundaria;
+	font-weight: $typo_weight_bold;
+	color: #3C4858;
+}
+p.text_scua{
+	@include subtitulos;
+	margin-bottom: $margin_top_bottom;
+}
+div.boxproducts{
+	background-color: #fff;
+	height: 100%;
+	padding: 11px;
+	border: 13px solid #F0F0F0;
+	border-radius: 8px;
+	margin-bottom: 60px;
+}
+h4.titulo_producto{
+	font-family:$typo_secundaria;
+	font-weight: $typo_weight_bold;
+	color: #3C4858;
+}
+h6.minititulo{
+	color: $color_fucsia;
+	margin-top: 20px;
+}
+img.photoproduct{
+	width: 90%;
+	border-radius: 8px;
+	margin-top: -30px;
+	box-shadow:6px 6px 6px #a1a1a1;	
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+img.photoproduct:hover{
+	cursor:pointer;
+    margin-top: -50px;
+    text-align:left;
+}
+div.footer{
+	margin-top: 60px;
+}
+p.precio{
+	display: inline-block;
+	margin-right: 90px;
+	font-size:18px;
+}
+p.textproduct{
+	font-size: 16px;
+}
+.fa-shopping-cart{
+	font-size: 16px;
+}
+//Quinta Seccion
+section.seccion_cinco{
+	@include base_seccion;
+	background-color: $color_white;
+}
+.portinfo{
+	position: relative;
+}
+img.imgportfolio{
+	width: 95%;
+	height: auto;
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+.overlay {
+  	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 85%;
+    width: 88%;
+    opacity:0;
+    transition: .5s ease;
+    background-color: rgba(black, 0.5);
+    opacity: -0.7;
+    border-radius: 8px;
+}
+.overlayancho{
+	height: 90%;
+    width: 90%;
+}
+.portinfo:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-family:$typo_secundaria;
+  font-weight: $typo_weight_bold;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+a.pill_uno {
+    @include pill;
+    background-color: $color_fucsia;
+}
+a.pill_dos {
+    @include pill;
+    background-color: $color_celeste;
+}
+a.pill_tres {
+    @include pill;
+    background-color: $color_rojo;
+}
+//Sexta Seccion
+section.seccion_seis{
+	@include base_seccion;
+	background-color: $color_white;
+}
+img.phototeam{
+	width: 100%;
+	border-radius: 6px;
+}
+h4.name_team{
+	@include subtitulos_pequeños;
+	line-height: 28.21px;
+}
+p.team_description{
+	margin-bottom: 30px;
+	color: #999;
+	line-height: 25.2px;
+}
+div.sociales{
+	margin-bottom: 60px;
+}
+li.lisociales{
+    display: inline-block;
+    margin-right: 24px;
+    font-size: 16px;
+}
+.fa-facebook{
+	color: #3B5998;
+}
+.fa-google-plus{
+	color: #DD4B39;
+}
+.fa-twitter{
+	color:#55ACEE;
+}
+.fa-linkedin{
+	color: #2887BD;
+}
+.fa-pinterest{
+	color: #CC2127;
+}
+.fa-dribbble{
+	color:#EA4C89;
+}
+.fa-github-square{
+	color: #000;
+}
+//Séptima Seccion
+section.seccion_siete{
+	@include base_seccion;
+}
+.boxcard_uno{
+	@include boxcard;
+	background-color: $color_white;
+}
+.boxcard_dos{
+	@include boxcard;
+}

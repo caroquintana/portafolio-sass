@@ -7,9 +7,40 @@
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
-@mixin overlay{
-  position: absolute;
-  left: 0;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
+@mixin subtitulos{
+	font-size: 18px;
+	font-weight: $typo_weight_light;
+}
+@mixin base_seccion{
+	background-color: #F0F0F0;
+	width: 95%;
+	height: $cienporciento;
+	margin: 0 auto;
+}
+@function black($opacity) {
+  @return rgba(black, 0.5)
+}
+
+@mixin pill{
+	color: white;
+    text-decoration: none;
+    margin-left: 39%;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 11px;
+    position: absolute;
+  	top: 30%;
+}
+@mixin subtitulos_pequeños{
+	font-family: $typo_secundaria;
+	font-size: 16px;
+	font-weight: $typo_weight_bold;
+}
+@mixin boxcard{
+	margin-top: $margin_top_bottom;
+	height: 100%;
+	width: 100%;
+	margin-bottom: $margin_top_bottom;
+	padding: 40px;
+	color: #999999;
 }

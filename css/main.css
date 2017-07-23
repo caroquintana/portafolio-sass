@@ -5811,7 +5811,8 @@ body {
   font-family: "Roboto", sans-serif; }
 
 .navbar-fixed-top {
-  top: 25px; }
+  top: 0;
+  padding-top: 18px; }
 
 .navbar-default {
   background-color: transparent;
@@ -5944,5 +5945,224 @@ iframe {
   height: 400px;
   border: 1px solid #fff;
   margin-bottom: 60px; }
+
+section.seccion_cuatro {
+  background-color: #F0F0F0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto; }
+
+h1.titulo_scua {
+  margin-top: 80px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  color: #3C4858; }
+
+p.text_scua {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 80px; }
+
+div.boxproducts {
+  background-color: #fff;
+  height: 100%;
+  padding: 11px;
+  border: 13px solid #F0F0F0;
+  border-radius: 8px;
+  margin-bottom: 60px; }
+
+h4.titulo_producto {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  color: #3C4858; }
+
+h6.minititulo {
+  color: #E91E63;
+  margin-top: 20px; }
+
+img.photoproduct {
+  width: 90%;
+  border-radius: 8px;
+  margin-top: -30px;
+  box-shadow: 6px 6px 6px #a1a1a1;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out; }
+
+img.photoproduct:hover {
+  cursor: pointer;
+  margin-top: -50px;
+  text-align: left; }
+
+div.footer {
+  margin-top: 60px; }
+
+p.precio {
+  display: inline-block;
+  margin-right: 90px;
+  font-size: 18px; }
+
+p.textproduct {
+  font-size: 16px; }
+
+.fa-shopping-cart {
+  font-size: 16px; }
+
+section.seccion_cinco {
+  background-color: #F0F0F0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.portinfo {
+  position: relative; }
+
+img.imgportfolio {
+  width: 95%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 40px; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 85%;
+  width: 88%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: -0.7;
+  border-radius: 8px; }
+
+.overlayancho {
+  height: 90%;
+  width: 90%; }
+
+.portinfo:hover .overlay {
+  opacity: 1; }
+
+.text {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+a.pill_uno {
+  color: white;
+  text-decoration: none;
+  margin-left: 39%;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 11px;
+  position: absolute;
+  top: 30%;
+  background-color: #E91E63; }
+
+a.pill_dos {
+  color: white;
+  text-decoration: none;
+  margin-left: 39%;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 11px;
+  position: absolute;
+  top: 30%;
+  background-color: #00BCD4; }
+
+a.pill_tres {
+  color: white;
+  text-decoration: none;
+  margin-left: 39%;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 11px;
+  position: absolute;
+  top: 30%;
+  background-color: #f44336; }
+
+section.seccion_seis {
+  background-color: #F0F0F0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff; }
+
+img.phototeam {
+  width: 100%;
+  border-radius: 6px; }
+
+h4.name_team {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28.21px; }
+
+p.team_description {
+  margin-bottom: 30px;
+  color: #999;
+  line-height: 25.2px; }
+
+div.sociales {
+  margin-bottom: 60px; }
+
+li.lisociales {
+  display: inline-block;
+  margin-right: 24px;
+  font-size: 16px; }
+
+.fa-facebook {
+  color: #3B5998; }
+
+.fa-google-plus {
+  color: #DD4B39; }
+
+.fa-twitter {
+  color: #55ACEE; }
+
+.fa-linkedin {
+  color: #2887BD; }
+
+.fa-pinterest {
+  color: #CC2127; }
+
+.fa-dribbble {
+  color: #EA4C89; }
+
+.fa-github-square {
+  color: #000; }
+
+section.seccion_siete {
+  background-color: #F0F0F0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto; }
+
+.boxcard_uno {
+  margin-top: 80px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 80px;
+  padding: 40px;
+  color: #999999;
+  background-color: #fff; }
+
+.boxcard_dos {
+  margin-top: 80px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 80px;
+  padding: 40px;
+  color: #999999; }
 
 /*# sourceMappingURL=main.css.map */
