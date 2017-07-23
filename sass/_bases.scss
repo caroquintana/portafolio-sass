@@ -1,0 +1,61 @@
+body{
+	background-color:$fondo_principal;
+	font-family: $typo_principal;
+}
+//Estilos nav 
+.navbar-fixed-top{
+	top:25px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar > .container .navbar-brand{
+	color: $color_white;
+}
+.navbar-default .navbar-nav > li > a {
+    color: $color_white;
+}
+li.shop{
+	background-color: $color_fucsia;
+	border-radius: 6px;
+}
+//Estilos carrusel
+.contcarrousel{
+	width:$ancho_cienporciento;
+	padding: $padding_reset;
+}
+img.imgcarrousel{
+	width:$ancho_cienporciento;	
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	height: 600px;
+}
+.carousel-caption{
+	margin-bottom: 160px;
+}
+h1.titulos_principales{
+	font-weight: $typo_weight;
+	font-size: 67.2px;
+}
+p.subtitulos_caption{
+	font-size: 18.5px;
+	font-family: $typo_secundaria;
+	line-height: 26px;
+}
+a.btn-primary{
+	background-color: $color_fucsia;
+	line-height:20px;
+	outline: 0;
+	margin-top:40px;
+	border: 0;
+	font-size:13px;
+	padding: 17px 26px;
+
+}
+a.btn-primary:hover, a.btn-primary:visited, a.btn-primary:active, a.btn-primary:active:focus{
+	background-color: $color_fucsia;
+	font-size:13px;
+	padding: 17px 26px;
+}
+
