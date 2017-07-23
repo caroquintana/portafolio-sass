@@ -7,3 +7,9 @@
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
+@mixin overlay{
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}

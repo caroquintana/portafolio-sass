@@ -5912,4 +5912,37 @@ p.text_segunda {
 div.trescajas {
   margin-bottom: 100px; }
 
+section.seccion_tres {
+  background-image: url(../img/img_city.jpg);
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+div.doscajas {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #fff; }
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  margin-bottom: 20px; }
+
+p.text_st {
+  font-size: 18px;
+  font-weight: 300; }
+
+img.imgtablet {
+  width: 80%; }
+
+iframe {
+  width: 75%;
+  height: 400px;
+  border: 1px solid #fff;
+  margin-bottom: 60px; }
+
 /*# sourceMappingURL=main.css.map */
