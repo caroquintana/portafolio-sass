@@ -390,3 +390,29 @@ p.text_direccion, .fa-map-marker{
 .fa-map-marker, .fa-mobile{
 	font-size: 30px;
 }
+div.contactus{
+	
+}
+
+//Seccion doce
+footer.seccion_doce{
+	@include base_seccion;
+	background-color: #323437;
+}
+h3.titulo_unofooter{
+	margin-top: $margin_top_bottom;
+}
+p.text_about{
+	color: #7C7C7D;
+	line-height: 20px;
+	margin-bottom: $margin_top_bottom;
+}
+img.fotoinst{
+	width: 20%;
+	border-radius: 8px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+}
+li.liinstagram{
+	display: inline;
+}

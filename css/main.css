@@ -6259,4 +6259,28 @@ p.text_direccion, .fa-map-marker {
 .fa-map-marker, .fa-mobile {
   font-size: 30px; }
 
+footer.seccion_doce {
+  background-color: #F0F0F0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #323437; }
+
+h3.titulo_unofooter {
+  margin-top: 80px; }
+
+p.text_about {
+  color: #7C7C7D;
+  line-height: 20px;
+  margin-bottom: 80px; }
+
+img.fotoinst {
+  width: 20%;
+  border-radius: 8px;
+  margin-right: 2px;
+  margin-bottom: 10px; }
+
+li.liinstagram {
+  display: inline; }
+
 /*# sourceMappingURL=main.css.map */
