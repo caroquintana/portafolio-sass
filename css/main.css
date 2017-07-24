@@ -6109,7 +6109,7 @@ h4.name_team {
   line-height: 28.21px; }
 
 p.team_description {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   color: #999;
   line-height: 25.2px; }
 
@@ -6363,5 +6363,9 @@ a.pie:hover {
 li.lifinal {
   display: inline-block;
   margin: 8px; }
+
+.icontwitter, .iconfacebook {
+  color: white;
+  font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */
