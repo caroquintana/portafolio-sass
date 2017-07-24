@@ -390,8 +390,66 @@ p.text_direccion, .fa-map-marker{
 .fa-map-marker, .fa-mobile{
 	font-size: 30px;
 }
+p.text_direccion{
+	margin-bottom: $margin_top_bottom;
+}
+div.contcontacto{
+	width: 80%;
+	background-color: $color_white;
+	height: 100%;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
 div.contactus{
-	
+	background-color: $color_fucsia;
+	padding: 10px;
+	color: $color_white;
+	text-align: center;
+	font-family: $typo_secundaria;
+	font-size: 25px;
+	font-weight: 800;
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 8px;
+	margin-top: $margin_top_bottom;
+	position: relative;
+    z-index: 999;
+    margin-bottom: -27px;
+}
+.cajaformulario{
+	margin-bottom: $margin_top_bottom;
+}
+input.txt {
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid $color_fucsia;
+    margin-top: 25px;
+    margin-right: 6px;
+    margin-bottom: 18px;
+}
+input.txtsubject{
+	width: 82%;
+	margin-bottom: 25px;
+}
+textarea.txt_3 {
+    width: 80%;
+    margin: 0 auto;
+    display: inherit;
+    margin-bottom: 12px;
+    height: 110px;
+    border: none;
+    border-bottom: 1px solid  $color_fucsia;
+}
+.botonsubmit{
+	background-color:$color_fucsia;
+	border: none;
+	font-size: 12px;
+}
+.botonsubmit:hover, .btn-primary:active:hover, .btn-primary:active:focus,{
+	background-color:$color_fucsia;
+	border-color: none;
 }
 
 //Seccion doce
