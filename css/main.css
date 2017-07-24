@@ -5918,10 +5918,10 @@ section.seccion_tres {
   width: 95%;
   height: 100%;
   margin: 0 auto;
-  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  background-attachment: fixed; }
 
 div.doscajas {
   margin-top: 80px;
@@ -6187,5 +6187,76 @@ section.seccion_ocho {
 
 .client {
   width: 40%; }
+
+section.seccion_nueve {
+  background-image: url(../img/about.jpg);
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: center top; }
+
+h1.titulo_nueve, .text_nueve {
+  color: #fff; }
+
+input.subscribemail[type="email"] {
+  width: 60%;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  border-bottom: 1px solid #E91E63;
+  margin-bottom: 10px; }
+
+a.boton_subscribe {
+  height: 40px;
+  margin-top: 0; }
+
+.contenedorform {
+  background-color: #fff;
+  padding: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 6px; }
+
+.contenedormail {
+  margin-bottom: 100px; }
+
+section.seccion_diez {
+  background-color: #F0F0F0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.photoblog {
+  width: 80%;
+  border-radius: 6px; }
+
+.peqsubtitulo_uno, .peqsubtitulo_tres {
+  color: #E91E63; }
+
+.peqsubtitulo_dos {
+  color: #00BCD4; }
+
+section.seccion_once {
+  background-image: url(../img/img_city.jpg);
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+h3.titulo_local {
+  color: #fff;
+  font-family: "Roboto Slab", serif; }
+
+p.text_direccion, .fa-map-marker {
+  color: #fff; }
+
+.fa-map-marker, .fa-mobile {
+  font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */

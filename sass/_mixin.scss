@@ -44,3 +44,11 @@
 	padding: 40px;
 	color: #999999;
 }
+@mixin coverimage{
+	width: 95%;
+	height: $cienporciento;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
