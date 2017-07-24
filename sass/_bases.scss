@@ -407,12 +407,32 @@ p.text_about{
 	line-height: 20px;
 	margin-bottom: $margin_top_bottom;
 }
+p.text_smediafeed{
+	margin-bottom: 10px;
+}
 img.fotoinst{
 	width: 20%;
 	border-radius: 8px;
 	margin-right: 2px;
 	margin-bottom: 10px;
 }
+div.socialmedia{
+	margin-bottom: $margin_top_bottom;
+}
 li.liinstagram{
 	display: inline;
+}
+div.instagramfeed{
+	margin-bottom: $margin_top_bottom;
+}
+div.textohestia, a.pie{
+	color: $color_white;
+	text-decoration: none;
+}
+a.pie:hover{
+	color: $color_fucsia;
+}
+li.lifinal {
+    display: inline-block;
+    margin: 8px;
 }

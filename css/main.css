@@ -6274,13 +6274,33 @@ p.text_about {
   line-height: 20px;
   margin-bottom: 80px; }
 
+p.text_smediafeed {
+  margin-bottom: 10px; }
+
 img.fotoinst {
   width: 20%;
   border-radius: 8px;
   margin-right: 2px;
   margin-bottom: 10px; }
 
+div.socialmedia {
+  margin-bottom: 80px; }
+
 li.liinstagram {
   display: inline; }
+
+div.instagramfeed {
+  margin-bottom: 80px; }
+
+div.textohestia, a.pie {
+  color: #fff;
+  text-decoration: none; }
+
+a.pie:hover {
+  color: #E91E63; }
+
+li.lifinal {
+  display: inline-block;
+  margin: 8px; }
 
 /*# sourceMappingURL=main.css.map */
